@@ -10,6 +10,7 @@
 
 body {
 	font-family: monospace;
+	font-size: 62.5%;
 }
 
 img {
@@ -36,59 +37,67 @@ img {
 	font-family: cursive;
 }
 
-#about {
+#about, #environments {
 	width: 100%;
 	height: 200px;
 	background-color: #fdf3a9;
 	text-align: center;
 	}
 
-#about p {
+#about p, #environments p {
 	color: #842002;
-	font-size: 25px;
+	font-size: 3em;
 	max-width: 640px;
 	margin: 0 auto;
-
 }
 
-#about h2, #skills h2, #portfolio h2 {
+#about h2,
+#skills h2,
+#environments h2,
+#portfolio h2,
+#learning h2 {
 	font-size: 35px;
 	color: #842002;
 	margin: 0 auto;
 	padding: 10px;
 }
 
-#skills h2 {
+#skills h2, #learning h2 {
 	color: #fdf3a9;
 }
 
-#skills {
+#skills, #learning {
 	background-color: #842002;
 	width: 100%;
 	height: 250px;
 	display: block;
 	text-align: center;
-
 }
 
-#skills ul li a, #portfolio ul li a {
+#skills ul li a,
+#portfolio ul li a,
+#environments ul li a,
+#learning ul li a {
 	font-size: 30px;
 	color: #fdf3a9;
 	text-decoration: none;
 }
 
-#skills ul li, #portfolio ul li {
+#skills ul li, #learning ul li {
 	display: inline-block;
 	color: #fdf3a9;
 	padding: 5px;
 }
 
-#skills ul, #portfolio ul {
+#skills ul,
+#environments ul,
+#portfolio ul,
+#learning ul {
 	margin: 0 auto;
 	text-align: center;
 }
 
-#portfolio {
+#environments, #portfolio {
 	background-color: #fdf3a9;
 	width: 100%;
 	height: 300px;
@@ -96,7 +105,7 @@ img {
 	text-align: center;
 }
 
-#portfolio ul li a {
+#environments ul li a, #portfolio ul li a {
 	color: #842002;
 }
 
