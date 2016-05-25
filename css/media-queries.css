@@ -1,0 +1,106 @@
+@media only screen and (max-width: 980px){
+
+.desktop {
+		display: none;
+	}
+
+.mobile {
+		display: flex;
+		font-size: 20vw;
+	}
+
+}
+
+@media only screen and (max-width: 841px) {
+	#environments {
+		height: 360px;
+	}
+	#environments ul li {
+		padding: 5px 40px;
+	}
+}
+
+@media only screen and (max-width: 733px) {
+	#skills {
+		height: 360px;
+	}
+	#skills ul li {
+		padding: 5px 40px;
+	}
+
+
+@media only screen and (max-width: 628px) {
+	#environments ul li {
+		padding: 5px 20px;
+	}
+	#learning ul li {
+		padding: 5px 10px;
+	}
+}
+
+@media only screen and (max-width: 608px) {
+	#learning ul li {
+		padding: 5px 5px;
+	}
+}
+
+@media only screen and (max-width: 597px) {
+	#skills ul li {
+		padding: 5px 20px;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	#learning {
+		height: 360px;
+	}
+
+	#learning ul li {
+		padding: 5px 35px;
+	}
+}
+
+@media only screen and (max-width: 508px) {
+	#environments ul li {
+		padding: 5px 10px;
+	}
+}
+
+@media only screen and (max-width: 477px) {
+	#skills ul li {
+		padding: 5px 10px;
+	}
+}
+
+@media only screen and (max-width: 448px) {
+	#environments ul li {
+		padding: 5px 6px;
+	}
+}
+
+@media only screen and (max-width: 424px) {
+	#environments {
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 417px) {
+	#skills {
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 408px) {
+	#learning {
+		height: 380px;
+	}
+  #learning ul li {
+		padding: 5px 10px;
+	}
+}
+
+@media only screen and (max-width: 321px) {
+	#environments ul li {
+		padding: 5px 5px;
+	}
+}
